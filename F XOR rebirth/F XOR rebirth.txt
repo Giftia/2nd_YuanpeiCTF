@@ -1,0 +1,4 @@
+题号：F 
+名称：XOR rebirth
+描述：somebody will be rebirthed by some ways.
+flag格式:ypctf{}
