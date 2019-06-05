@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<string>
+#include<iostream>
+#include<windows.h>
+using namespace std;
+int main()
+{
+	string s = "ypctf{Ea5y_1Da} ";
+	
+	string a = "409845313789012 ";
+	string a1 = "409845313789012 ";
+	cout << s.size() << a.size()<<endl;
+	for (int i = 0; i < s.size(); i++)
+	{
+		 a[i]+=s[i]-'0';
+		
+	}
+	cout << a << endl;;
+	for (int i = 0; i < s.size(); i++)
+	{
+		a[i] -= a1[i] - '0';
+
+	}cout << a << endl;;
+	system("pause");
+	return 0;
+}

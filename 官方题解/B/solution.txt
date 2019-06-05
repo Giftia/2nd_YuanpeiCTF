@@ -1,0 +1,3 @@
+隐写送分题
+答案：ypctf{yoUgooDSaooo}
+将图片修改后缀zip进行解压，从第2个图片中找到key为home。解压得到答案
